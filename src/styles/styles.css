@@ -1,22 +1,16 @@
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.inspector {
-  margin-left: 220px;
+.btnCls {
+  margin-right: 5px;
+  border: none;
+  background-color: #21252b;
+  color: white;
 }
 
-.inspector pre {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 13px;
+.child{
+  padding-left: 20px;
 }

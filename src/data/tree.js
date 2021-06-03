@@ -1,18 +1,15 @@
 const TreeData = {
     module: "explorer",
     id: "root-0",
-    class: 'parent',
     children: [
       {
         id: "root-1",
         module: "dist",
         collapsed: true,
-        class: 'mainson',
         children: [
           {
             id: "0",
             module: "node.js",
-            // class: 'parent',
             leaf: true
           },
           {
@@ -35,7 +32,6 @@ const TreeData = {
       {
         id: "root-2",
         module: "example",
-        class: 'mainson',
         children: [
           {
             id: "4",
@@ -57,7 +53,6 @@ const TreeData = {
       {
         id: "root-3",
         module: "lib",
-        class: 'mainson',
         children: [
           {
             id: "7",
@@ -84,43 +79,36 @@ const TreeData = {
       {
         id: "11",
         module: ".gitiignore",
-        class: 'son',
         leaf: true
       },
       {
         id: "12",
         module: "index.js",
-        class: 'son',
         leaf: true
       },
       {
         id: "13",
         module: "LICENSE",
-        class: 'son',
         leaf: true
       },
       {
         id: "14",
         module: "Makefile",
-        class: 'son',
         leaf: true
       },
       {
         id: "15",
         module: "package.json",
-        class: 'son',
         leaf: true
       },
       {
         id: "16",
         module: "README.md",
-        class: 'son',
         leaf: true
       },
       {
         id: "17",
         module: "webpack.config.js",
-        class: 'son',
         leaf: true
       }
     ]
